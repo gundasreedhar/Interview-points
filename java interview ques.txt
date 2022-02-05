@@ -1,0 +1,120 @@
+ Diff between jdk, jvm and jre 
+	jdk is installation pkg and it consists of JRE and development tools. here we can compile and run the code as well
+	jre is run time environment, it consists of JVM and class libraries. we can only run byte code here. cant develope
+	jvm is main component of both jdk and jre. This converts the byte code to machine dependent code using java interpreter and JIT.
+
+ is java case sensitive? yes
+	
+ how java is platform independent?
+	The meaning of platform-independent is that the java compiled code(byte code) can run on all operating systems.
+	Here the jvm is platform dependent, so this byte code in the presence of jvm will convert to machine dependent code. so
+	
+	
+
+ is java 100% object oriented?
+
+ can u name few main features of java?
+
+ list the important methods in the object class
+	
+1. what is a class?
+	Class is logical entity , template that describes the state and behaviour of the object
+
+2. what is a object?
+	A object is a real time entity that has both state and behaviour . state represent the type of object where as, behaviour represent the actions that the object can perform
+
+3. what is an array?
+
+4. what is function?
+	
+5. what is an annotation?
+
+6. what is constrcutor?
+
+7. what is an interface?
+
+8. what is abstract class?
+
+9. what is inheritence?
+
+10. what is encapsulation?
+
+11. polymorphism? and types
+
+12. what is overloading and overriding?
+
+14. what flexibility u have in overloading and overriding?
+
+15. what does a class can contain?
+
+16. what does an interface can contain?
+
+17. what is thread? ways to craete thread? best way to ctreate the thread?
+
+18. what is annotation? types? 
+	Annotations, a form of metadata, provide data about a program that is not part of the program itself. Annotations have no direct effect on the operation of the code they annotate.
+	
+		Annotations have a number of uses, among them:
+
+		> Information for the compiler — Annotations can be used by the compiler to detect errors or suppress warnings.
+		> Compile-time and deployment-time processing — Software tools can process annotation information to generate code, XML files, and so forth.
+		> Runtime processing — Some annotations are available to be examined at runtime.
+
+19. how to create the user defined annnotation?
+
+20. diff btwn jdk, jvm, jre?
+
+21. Difference between jar file and war file.
+	The first and most obvious difference is the file extension. JARs have the .jar extension, whereas the WAR file has the .war extension.
+	The second main difference is their purpose and the way they function. 
+	JAR files allow us to package multiple files in order to use it as a library, plugin, or any kind of application. On the other hand, WAR files are used only for web applications.
+	for jar file the main method is requierd for start of application
+	wherer as, for the war file the main method is not required for start of application
+	
+	this is jar file structure
+	---------------------------
+	META-INF/
+	    MANIFEST.MF
+	com/
+    	    baeldung/
+        	MyApplication.class
+
+	
+	this is war file structure
+	---------------------------
+	META-INF/
+   	 MANIFEST.MF
+	WEB-INF/
+    	    web.xml
+    	    jsp/
+        	helloWorld.jsp
+            classes/
+        	static/
+	        templates/
+        	application.properties
+    	    lib/
+        	// in lib(library) folder dependencies will be in *.jar files 
+
+
+22. error's in the web requests
+ans: 3xx    301, 302.,etc are errors during the jump from one url to another url
+     4xx    404 is the client side error, that is bad request
+     5xx    500, 501, 503 are server side errors. server side failure during processing the request ex: 500 internal server error
+
+23. about properties file
+
+24 about regular expressions
+	\\d   digits
+	\\D	non-digits
+	\\s	white space
+	\\S	non-whitespace
+	\w	any word [a-zA-Z_0-9]
+	\W	non word
+
+
+
+
+
+
+
+		
